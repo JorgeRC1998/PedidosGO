@@ -1,0 +1,89 @@
+﻿@model PedidosGO.Entidades.Usuario
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Interior Register Form Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <link href="/Estilos/Reg/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/Estilos/Reg/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+    <div class="signupform">
+        <div class="container">
+            <div class="agile_info">
+                <div class="w3l_form">
+                    <div class="left_grid_info">
+                        <h3>Bienvenido!</h3>
+                        <h4>Porfavor llena todos los campos para conocer todos tus datos</h4>
+                        <p>Con PedidosGo podras gestionar tus pedidos con los proveedores que desees para poder ahorrarte tiempo y de paso lo haces cuando desees y donde quieras</p>
+                    </div>
+                </div>
+                <div class="w3_info">
+                    <h2>Crear Cuenta</h2>
+                    <p>Rellena los campos correspondientes</p>
+                    @using (Html.BeginForm())
+                    {
+                        <div class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.cedula, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.cedula, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.nombre, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.apellido, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.apellido, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.edad, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.edad, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.direccion, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.direccion, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.telefono, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.telefono, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.celular, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.celular, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.correo_electronico, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.correo_electronico, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.contraseña, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.contraseña, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ConfirmarContraseña, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    @Html.EditorFor(model => model.ConfirmarContraseña, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+                                </div>
+                            </fieldset>
+                        </div>
+                        <button class="btn btn-danger btn-block" type="submit">Crear cuenta</button>
+                    }
+
+                    <div class="text-primary text-success text-center">
+                        @ViewBag.MensajeExito
+                    </div>
+                    <div class="text-primary text-danger text-center">
+                        @ViewBag.MensajeError
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

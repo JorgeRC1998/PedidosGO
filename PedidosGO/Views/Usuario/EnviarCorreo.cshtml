@@ -1,0 +1,49 @@
+﻿@model PedidosGO.Models.EmailModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elegant Feedback Form Flat Responsive Template :: w3layouts</title>
+    <!-- custom-theme -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Elegant Feedback Form  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //custom-theme -->
+    <link href="/Estilos/Email/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+<body class="agileits_w3layouts">
+    <h1 class="agile_head text-center">Contacto</h1>
+    <div class="w3layouts_main wrap">
+
+        @using (Html.BeginForm())
+        {
+            <div class="form-horizontal">
+                <fieldset>
+                    <div class="form-group">
+                        Nombre
+                        @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                    <div class="form-group">
+                        Asunto
+                        @Html.EditorFor(model => model.Asunto, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                    <div class="form-group">
+                        Email
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                    <div class="form-group">
+                        <p>Mensaje</p>
+                        @Html.TextAreaFor(model => model.Mensaje, new { rows = "8", cols = "50" })
+                    </div>
+                </fieldset>
+            </div>
+           <button class="btn btn-danger btn-block" type="submit">Enviar</button>
+        }
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PedidosModelStoreContainer" CdmEntityContainer="PedidosEntities">
+    <EntitySetMapping Name="BANK_ACCOUNT">
+      <EntityTypeMapping TypeName="PedidosModel.BANK_ACCOUNT">
+        <MappingFragment StoreEntitySet="BANK_ACCOUNT">
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="NumeroCuenta" ColumnName="NumeroCuenta" />
+          <ScalarProperty Name="Ultimos4Dig" ColumnName="Ultimos4Dig" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="CedulaUser" ColumnName="CedulaUser" />
+          <ScalarProperty Name="CodigoSegu" ColumnName="CodigoSegu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMPANIES">
+      <EntityTypeMapping TypeName="PedidosModel.COMPANIES">
+        <MappingFragment StoreEntitySet="COMPANIES">
+          <ScalarProperty Name="Nit" ColumnName="Nit" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NOTIFICATIONS">
+      <EntityTypeMapping TypeName="PedidosModel.NOTIFICATIONS">
+        <MappingFragment StoreEntitySet="NOTIFICATIONS">
+          <ScalarProperty Name="Codigo_Notificacion" ColumnName="Codigo_Notificacion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Detalles" ColumnName="Detalles" />
+          <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDERS">
+      <EntityTypeMapping TypeName="PedidosModel.ORDERS">
+        <MappingFragment StoreEntitySet="ORDERS">
+          <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Cedula_User" ColumnName="Cedula_User" />
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTS">
+      <EntityTypeMapping TypeName="PedidosModel.PRODUCTS">
+        <MappingFragment StoreEntitySet="PRODUCTS">
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cantidad_Disponible" ColumnName="Cantidad_Disponible" />
+          <ScalarProperty Name="ValorUni" ColumnName="ValorUni" />
+          <ScalarProperty Name="Valor_IVA" ColumnName="Valor_IVA" />
+          <ScalarProperty Name="Lote" ColumnName="Lote" />
+          <ScalarProperty Name="Fecha_Vencimiento" ColumnName="Fecha_Vencimiento" />
+          <ScalarProperty Name="Nit_Compañia" ColumnName="Nit_Compañia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SHIPMENTS">
+      <EntityTypeMapping TypeName="PedidosModel.SHIPMENTS">
+        <MappingFragment StoreEntitySet="SHIPMENTS">
+          <ScalarProperty Name="Shipment_Id" ColumnName="Shipment_Id" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Repartidor" ColumnName="Repartidor" />
+          <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SPECIAL_ACTIVITIES">
+      <EntityTypeMapping TypeName="PedidosModel.SPECIAL_ACTIVITIES">
+        <MappingFragment StoreEntitySet="SPECIAL_ACTIVITIES">
+          <ScalarProperty Name="Codigo_Eventualidad" ColumnName="Codigo_Eventualidad" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Detalles" ColumnName="Detalles" />
+          <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="PedidosModel.USERS">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Edad" ColumnName="Edad" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Correo_Electronico" ColumnName="Correo_Electronico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DoBackup" FunctionName="PedidosModel.Store.DoBackup" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="PedidosModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="PedidosModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="PedidosModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="PedidosModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PedidosModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="PedidosModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PedidosModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="PedidosModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="PedidosModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="Sproc_ConsultarTablaPorDB" FunctionName="PedidosModel.Store.Sproc_ConsultarTablaPorDB" />
+    <FunctionImportMapping FunctionImportName="uspInsertarRegistros" FunctionName="PedidosModel.Store.uspInsertarRegistros" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,8 @@
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Debug\Reglas.csprojResolveAssemblyReference.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Debug\Reglas.csproj.CoreCompileInputs.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Debug\Reglas.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Debug\Reglas.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Debug\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Debug\Entidades.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Debug\Reglas.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Debug\Reglas.pdb

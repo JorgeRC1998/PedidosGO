@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PedidosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BANK_ACCOUNT">
+    <Key>
+      <PropertyRef Name="Tipo" />
+      <PropertyRef Name="NumeroCuenta" />
+    </Key>
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NumeroCuenta" Type="bigint" Nullable="false" />
+    <Property Name="Ultimos4Dig" Type="int" />
+    <Property Name="FechaVence" Type="date" />
+    <Property Name="CedulaUser" Type="bigint" Nullable="false" />
+    <Property Name="CodigoSegu" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="COMPANIES">
+    <Key>
+      <PropertyRef Name="Nit" />
+    </Key>
+    <Property Name="Nit" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ciudad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NOTIFICATIONS">
+    <Key>
+      <PropertyRef Name="Codigo_Notificacion" />
+    </Key>
+    <Property Name="Codigo_Notificacion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Detalles" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ORDERS">
+    <Key>
+      <PropertyRef Name="Order_Id" />
+    </Key>
+    <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Valor" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="Cedula_User" Type="bigint" Nullable="false" />
+    <Property Name="Product_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRODUCTS">
+    <Key>
+      <PropertyRef Name="Product_Id" />
+    </Key>
+    <Property Name="Product_Id" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cantidad_Disponible" Type="int" Nullable="false" />
+    <Property Name="ValorUni" Type="int" Nullable="false" />
+    <Property Name="Valor_IVA" Type="int" Nullable="false" />
+    <Property Name="Lote" Type="int" Nullable="false" />
+    <Property Name="Fecha_Vencimiento" Type="date" Nullable="false" />
+    <Property Name="Nit_Compañia" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SHIPMENTS">
+    <Key>
+      <PropertyRef Name="Shipment_Id" />
+    </Key>
+    <Property Name="Shipment_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Repartidor" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SPECIAL_ACTIVITIES">
+    <Key>
+      <PropertyRef Name="Codigo_Eventualidad" />
+    </Key>
+    <Property Name="Codigo_Eventualidad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Detalles" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="Cedula" />
+    </Key>
+    <Property Name="Cedula" Type="bigint" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Edad" Type="int" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="int" Nullable="false" />
+    <Property Name="Celular" Type="int" Nullable="false" />
+    <Property Name="Correo_Electronico" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BANK_ACCOUNT_USERS">
+    <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+    <End Role="BANK_ACCOUNT" Type="Self.BANK_ACCOUNT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="Cedula" />
+      </Principal>
+      <Dependent Role="BANK_ACCOUNT">
+        <PropertyRef Name="CedulaUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NOTIFICATIONS_ORDERS">
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+    <End Role="NOTIFICATIONS" Type="Self.NOTIFICATIONS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDERS">
+        <PropertyRef Name="Order_Id" />
+      </Principal>
+      <Dependent Role="NOTIFICATIONS">
+        <PropertyRef Name="Order_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERS_PRODUCTS">
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="1" />
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTS">
+        <PropertyRef Name="Product_Id" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERS_USERS">
+    <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERS">
+        <PropertyRef Name="Cedula" />
+      </Principal>
+      <Dependent Role="ORDERS">
+        <PropertyRef Name="Cedula_User" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTS_COMPANIES">
+    <End Role="COMPANIES" Type="Self.COMPANIES" Multiplicity="1" />
+    <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMPANIES">
+        <PropertyRef Name="Nit" />
+      </Principal>
+      <Dependent Role="PRODUCTS">
+        <PropertyRef Name="Nit_Compañia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SHIPMENTS_ORDERS">
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+    <End Role="SHIPMENTS" Type="Self.SHIPMENTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDERS">
+        <PropertyRef Name="Order_Id" />
+      </Principal>
+      <Dependent Role="SHIPMENTS">
+        <PropertyRef Name="Order_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SPECIAL_ACTIVITIES_ORDERS">
+    <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+    <End Role="SPECIAL_ACTIVITIES" Type="Self.SPECIAL_ACTIVITIES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDERS">
+        <PropertyRef Name="Order_Id" />
+      </Principal>
+      <Dependent Role="SPECIAL_ACTIVITIES">
+        <PropertyRef Name="Order_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="DoBackup" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NombreDb" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Sproc_ConsultarTablaPorDB" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NombreDb" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="uspInsertarRegistros" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cedula" Type="bigint" Mode="In" />
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Apellido" Type="nvarchar" Mode="In" />
+    <Parameter Name="Edad" Type="int" Mode="In" />
+    <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+    <Parameter Name="Telefono" Type="int" Mode="In" />
+    <Parameter Name="Celular" Type="int" Mode="In" />
+    <Parameter Name="Correo_Electronico" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="PedidosModelStoreContainer">
+    <EntitySet Name="BANK_ACCOUNT" EntityType="Self.BANK_ACCOUNT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="COMPANIES" EntityType="Self.COMPANIES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NOTIFICATIONS" EntityType="Self.NOTIFICATIONS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ORDERS" EntityType="Self.ORDERS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCTS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SHIPMENTS" EntityType="Self.SHIPMENTS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SPECIAL_ACTIVITIES" EntityType="Self.SPECIAL_ACTIVITIES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BANK_ACCOUNT_USERS" Association="Self.FK_BANK_ACCOUNT_USERS">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="BANK_ACCOUNT" EntitySet="BANK_ACCOUNT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NOTIFICATIONS_ORDERS" Association="Self.FK_NOTIFICATIONS_ORDERS">
+      <End Role="ORDERS" EntitySet="ORDERS" />
+      <End Role="NOTIFICATIONS" EntitySet="NOTIFICATIONS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERS_PRODUCTS" Association="Self.FK_ORDERS_PRODUCTS">
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERS_USERS" Association="Self.FK_ORDERS_USERS">
+      <End Role="USERS" EntitySet="USERS" />
+      <End Role="ORDERS" EntitySet="ORDERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTS_COMPANIES" Association="Self.FK_PRODUCTS_COMPANIES">
+      <End Role="COMPANIES" EntitySet="COMPANIES" />
+      <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SHIPMENTS_ORDERS" Association="Self.FK_SHIPMENTS_ORDERS">
+      <End Role="ORDERS" EntitySet="ORDERS" />
+      <End Role="SHIPMENTS" EntitySet="SHIPMENTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SPECIAL_ACTIVITIES_ORDERS" Association="Self.FK_SPECIAL_ACTIVITIES_ORDERS">
+      <End Role="ORDERS" EntitySet="ORDERS" />
+      <End Role="SPECIAL_ACTIVITIES" EntitySet="SPECIAL_ACTIVITIES" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

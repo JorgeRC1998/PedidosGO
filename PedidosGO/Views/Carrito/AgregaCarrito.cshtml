@@ -1,0 +1,73 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Products In Cart Template Flat Responsive Widget Template | Home :: w3layouts</title>
+    <link href="/Estilos/Carro/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Flash Registration Form  Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
+    <script src="/Estilos/Carro/js/jquery.min.js"></script>
+</head>
+<body>
+    <!---header--->
+    <div class="header">
+        <h1>Productos en carrito</h1>
+    </div>
+    <!---header--->
+    <!---main--->
+    <div class="main">
+        <div class="main-section">
+
+            @{
+                double total = 0;
+            } 
+            @if (Session["carrito"] != null)
+            {
+                foreach (var item in (List<PedidosGO.Models.CarritoItem>)Session["carrito"])
+                {
+                    total += (double)(item.Cantidad * item.Producto.ValorUni);
+
+                    <div class="product-section">
+                        <div class="product-top">
+                            <div class="product-left">
+                                <img src="/@item.Producto.Imagen">
+                            </div>
+                            <div class="product-right">
+                                <h2>@item.Producto.Nombre</h2>
+                                <h5>@String.Format("{0:C}", item.Producto.ValorUni)</h5>
+                            </div>
+                        </div>
+                        <div class="product-right1">
+                            <p>Cantidad: @item.Cantidad<p>
+
+                            <div class="close"> @Html.ActionLink("X", "Delete", "Carrito", new { Id = item.Producto.ProductID }, null) </div>
+                        </div>
+                        <div class="product-right1">
+                            <p>@String.Format("{0:C}", (item.Cantidad * item.Producto.ValorUni))<p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                }
+            }
+            <div class="product-bottom">
+                <h3>Total : @String.Format("{0:c}", total)</h3>
+                @Html.ActionLink("Pagar", "ConfirmarVenta", "Carrito", null, null)
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        @Html.ActionLink("Seguir Comprando", "Index", "Producto", null, null)
+    </div>
+    <!---main--->
+</body>
+</html>

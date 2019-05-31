@@ -1,0 +1,18 @@
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\bin\Debug\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\bin\Debug\Entidades.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Debug\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Debug\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Entidades\bin\Debug\Entidades.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Entidades\bin\Debug\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Entidades\bin\Debug\Entidades.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Entidades\bin\Debug\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Entidades\obj\Debug\Entidades.pdb

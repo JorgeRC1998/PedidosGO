@@ -1,0 +1,6 @@
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\bin\Release\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\bin\Release\Entidades.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Release\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Entidades\obj\Release\Entidades.pdb

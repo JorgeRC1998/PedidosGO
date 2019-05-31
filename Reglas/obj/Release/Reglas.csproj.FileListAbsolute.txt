@@ -1,0 +1,8 @@
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Release\Reglas.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Release\Reglas.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Release\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\bin\Release\Entidades.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Release\Reglas.csprojResolveAssemblyReference.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Release\Reglas.csproj.CoreCompileInputs.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Release\Reglas.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Reglas\obj\Release\Reglas.pdb

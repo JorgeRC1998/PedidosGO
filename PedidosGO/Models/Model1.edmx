@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PedidosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BANK_ACCOUNT">
+          <Key>
+            <PropertyRef Name="CuentaID" />
+          </Key>
+          <Property Name="CuentaID" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Tipo" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NumeroCuenta" Type="bigint" Nullable="false" />
+          <Property Name="Ultimos4Dig" Type="int" />
+          <Property Name="FechaVence" Type="date" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="CodigoSegu" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="CATEGORIES">
+          <Key>
+            <PropertyRef Name="CategoriaID" />
+          </Key>
+          <Property Name="CategoriaID" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+          <Property Name="Activa?" Type="bit" />
+        </EntityType>
+        <EntityType Name="COMPANIES">
+          <Key>
+            <PropertyRef Name="Nit" />
+          </Key>
+          <Property Name="Nit" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ciudad" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Telefono" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="NOTIFICATIONS">
+          <Key>
+            <PropertyRef Name="Codigo_Notificacion" />
+          </Key>
+          <Property Name="Codigo_Notificacion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Detalles" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ORDERS">
+          <Key>
+            <PropertyRef Name="Order_Id" />
+          </Key>
+          <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="Shipment_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Descuento" Type="int" />
+          <Property Name="IVA" Type="int" />
+          <Property Name="TotalCompra" Type="int" Nullable="false" />
+          <Property Name="FechaEntrega" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PRODUCTS">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CompañiaID" Type="int" Nullable="false" />
+          <Property Name="CategoriaID" Type="int" Nullable="false" />
+          <Property Name="ValorUni" Type="int" Nullable="false" />
+          <Property Name="Lote" Type="int" Nullable="false" />
+          <Property Name="Fecha_Vencimiento" Type="date" Nullable="false" />
+          <Property Name="Nit_Compañia" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SHIPMENTS">
+          <Key>
+            <PropertyRef Name="Shipment_Id" />
+          </Key>
+          <Property Name="Shipment_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Repartidor" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SPECIAL_ACTIVITIES">
+          <Key>
+            <PropertyRef Name="Codigo_Eventualidad" />
+          </Key>
+          <Property Name="Codigo_Eventualidad" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Detalles" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Order_Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="USERS">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="Cedula" Type="bigint" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Apellido" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Edad" Type="int" />
+          <Property Name="Direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Telefono" Type="int" Nullable="false" />
+          <Property Name="Celular" Type="bigint" Nullable="false" />
+          <Property Name="Correo_Electronico" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Contraseña" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WISHLIST">
+          <Key>
+            <PropertyRef Name="WishListID" />
+          </Key>
+          <Property Name="WishListID" Type="int" Nullable="false" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="Activo?" Type="bit" />
+        </EntityType>
+        <Association Name="FK_BANK_ACCOUNT_USERS">
+          <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+          <End Role="BANK_ACCOUNT" Type="Self.BANK_ACCOUNT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USERS">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="BANK_ACCOUNT">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_NOTIFICATIONS_ORDERS">
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+          <End Role="NOTIFICATIONS" Type="Self.NOTIFICATIONS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDERS">
+              <PropertyRef Name="Order_Id" />
+            </Principal>
+            <Dependent Role="NOTIFICATIONS">
+              <PropertyRef Name="Order_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERS_PRODUCTS">
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="0..1" />
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTS">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="ORDERS">
+              <PropertyRef Name="IVA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERS_USERS">
+          <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USERS">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="ORDERS">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUCTS_CATEGORIES">
+          <End Role="CATEGORIES" Type="Self.CATEGORIES" Multiplicity="1" />
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CATEGORIES">
+              <PropertyRef Name="CategoriaID" />
+            </Principal>
+            <Dependent Role="PRODUCTS">
+              <PropertyRef Name="CategoriaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUCTS_COMPANIES">
+          <End Role="COMPANIES" Type="Self.COMPANIES" Multiplicity="1" />
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="COMPANIES">
+              <PropertyRef Name="Nit" />
+            </Principal>
+            <Dependent Role="PRODUCTS">
+              <PropertyRef Name="Nit_Compañia" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SHIPMENTS_ORDERS">
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+          <End Role="SHIPMENTS" Type="Self.SHIPMENTS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDERS">
+              <PropertyRef Name="Order_Id" />
+            </Principal>
+            <Dependent Role="SHIPMENTS">
+              <PropertyRef Name="Order_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SPECIAL_ACTIVITIES_ORDERS">
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+          <End Role="SPECIAL_ACTIVITIES" Type="Self.SPECIAL_ACTIVITIES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDERS">
+              <PropertyRef Name="Order_Id" />
+            </Principal>
+            <Dependent Role="SPECIAL_ACTIVITIES">
+              <PropertyRef Name="Order_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WISHLIST_PRODUCTS">
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="1" />
+          <End Role="WISHLIST" Type="Self.WISHLIST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTS">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="WISHLIST">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WISHLIST_USERS">
+          <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+          <End Role="WISHLIST" Type="Self.WISHLIST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USERS">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="WISHLIST">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="DoBackup" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NombreDb" Type="nvarchar(max)" Mode="In" />
+        </Function>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="uspInsertarRegistros" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="bigint" Mode="In" />
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="Apellido" Type="nvarchar" Mode="In" />
+          <Parameter Name="Edad" Type="int" Mode="In" />
+          <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+          <Parameter Name="Telefono" Type="int" Mode="In" />
+          <Parameter Name="Celular" Type="bigint" Mode="In" />
+          <Parameter Name="Correo_Electronico" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="uspUpdateRegistros" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="bigint" Mode="In" />
+          <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+          <Parameter Name="Apellido" Type="nvarchar" Mode="In" />
+          <Parameter Name="Edad" Type="int" Mode="In" />
+          <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+          <Parameter Name="Telefono" Type="int" Mode="In" />
+          <Parameter Name="Celular" Type="bigint" Mode="In" />
+          <Parameter Name="Correo_Electronico" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="PedidosModelStoreContainer">
+          <EntitySet Name="BANK_ACCOUNT" EntityType="Self.BANK_ACCOUNT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CATEGORIES" EntityType="Self.CATEGORIES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="COMPANIES" EntityType="Self.COMPANIES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NOTIFICATIONS" EntityType="Self.NOTIFICATIONS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ORDERS" EntityType="Self.ORDERS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCTS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SHIPMENTS" EntityType="Self.SHIPMENTS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SPECIAL_ACTIVITIES" EntityType="Self.SPECIAL_ACTIVITIES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WISHLIST" EntityType="Self.WISHLIST" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_BANK_ACCOUNT_USERS" Association="Self.FK_BANK_ACCOUNT_USERS">
+            <End Role="USERS" EntitySet="USERS" />
+            <End Role="BANK_ACCOUNT" EntitySet="BANK_ACCOUNT" />
+          </AssociationSet>
+          <AssociationSet Name="FK_NOTIFICATIONS_ORDERS" Association="Self.FK_NOTIFICATIONS_ORDERS">
+            <End Role="ORDERS" EntitySet="ORDERS" />
+            <End Role="NOTIFICATIONS" EntitySet="NOTIFICATIONS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERS_PRODUCTS" Association="Self.FK_ORDERS_PRODUCTS">
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+            <End Role="ORDERS" EntitySet="ORDERS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERS_USERS" Association="Self.FK_ORDERS_USERS">
+            <End Role="USERS" EntitySet="USERS" />
+            <End Role="ORDERS" EntitySet="ORDERS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUCTS_CATEGORIES" Association="Self.FK_PRODUCTS_CATEGORIES">
+            <End Role="CATEGORIES" EntitySet="CATEGORIES" />
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUCTS_COMPANIES" Association="Self.FK_PRODUCTS_COMPANIES">
+            <End Role="COMPANIES" EntitySet="COMPANIES" />
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SHIPMENTS_ORDERS" Association="Self.FK_SHIPMENTS_ORDERS">
+            <End Role="ORDERS" EntitySet="ORDERS" />
+            <End Role="SHIPMENTS" EntitySet="SHIPMENTS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SPECIAL_ACTIVITIES_ORDERS" Association="Self.FK_SPECIAL_ACTIVITIES_ORDERS">
+            <End Role="ORDERS" EntitySet="ORDERS" />
+            <End Role="SPECIAL_ACTIVITIES" EntitySet="SPECIAL_ACTIVITIES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WISHLIST_PRODUCTS" Association="Self.FK_WISHLIST_PRODUCTS">
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+            <End Role="WISHLIST" EntitySet="WISHLIST" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WISHLIST_USERS" Association="Self.FK_WISHLIST_USERS">
+            <End Role="USERS" EntitySet="USERS" />
+            <End Role="WISHLIST" EntitySet="WISHLIST" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PedidosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="BANK_ACCOUNT">
+          <Key>
+            <PropertyRef Name="CuentaID" />
+          </Key>
+          <Property Name="CuentaID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NumeroCuenta" Type="Int64" Nullable="false" />
+          <Property Name="Ultimos4Dig" Type="Int32" />
+          <Property Name="FechaVence" Type="DateTime" Precision="0" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="CodigoSegu" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="USERS" Relationship="Self.FK_BANK_ACCOUNT_USERS" FromRole="BANK_ACCOUNT" ToRole="USERS" />
+        </EntityType>
+        <EntityType Name="CATEGORIES">
+          <Key>
+            <PropertyRef Name="CategoriaID" />
+          </Key>
+          <Property Name="CategoriaID" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Activa_" Type="Boolean" />
+          <NavigationProperty Name="PRODUCTS" Relationship="Self.FK_PRODUCTS_CATEGORIES" FromRole="CATEGORIES" ToRole="PRODUCTS" />
+        </EntityType>
+        <EntityType Name="COMPANIES">
+          <Key>
+            <PropertyRef Name="Nit" />
+          </Key>
+          <Property Name="Nit" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Ciudad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Telefono" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="PRODUCTS" Relationship="Self.FK_PRODUCTS_COMPANIES" FromRole="COMPANIES" ToRole="PRODUCTS" />
+        </EntityType>
+        <EntityType Name="NOTIFICATIONS">
+          <Key>
+            <PropertyRef Name="Codigo_Notificacion" />
+          </Key>
+          <Property Name="Codigo_Notificacion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Detalles" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Order_Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ORDERS" Relationship="Self.FK_NOTIFICATIONS_ORDERS" FromRole="NOTIFICATIONS" ToRole="ORDERS" />
+        </EntityType>
+        <EntityType Name="ORDERS">
+          <Key>
+            <PropertyRef Name="Order_Id" />
+          </Key>
+          <Property Name="Order_Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="Shipment_Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Descuento" Type="Int32" />
+          <Property Name="IVA" Type="Int32" />
+          <Property Name="TotalCompra" Type="Int32" Nullable="false" />
+          <Property Name="FechaEntrega" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="NOTIFICATIONS" Relationship="Self.FK_NOTIFICATIONS_ORDERS" FromRole="ORDERS" ToRole="NOTIFICATIONS" />
+          <NavigationProperty Name="PRODUCTS" Relationship="Self.FK_ORDERS_PRODUCTS" FromRole="ORDERS" ToRole="PRODUCTS" />
+          <NavigationProperty Name="USERS" Relationship="Self.FK_ORDERS_USERS" FromRole="ORDERS" ToRole="USERS" />
+          <NavigationProperty Name="SHIPMENTS" Relationship="Self.FK_SHIPMENTS_ORDERS" FromRole="ORDERS" ToRole="SHIPMENTS" />
+          <NavigationProperty Name="SPECIAL_ACTIVITIES" Relationship="Self.FK_SPECIAL_ACTIVITIES_ORDERS" FromRole="ORDERS" ToRole="SPECIAL_ACTIVITIES" />
+        </EntityType>
+        <EntityType Name="PRODUCTS">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CompañiaID" Type="Int32" Nullable="false" />
+          <Property Name="CategoriaID" Type="Int32" Nullable="false" />
+          <Property Name="ValorUni" Type="Int32" Nullable="false" />
+          <Property Name="Lote" Type="Int32" Nullable="false" />
+          <Property Name="Fecha_Vencimiento" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Nit_Compañia" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="CATEGORIES" Relationship="Self.FK_PRODUCTS_CATEGORIES" FromRole="PRODUCTS" ToRole="CATEGORIES" />
+          <NavigationProperty Name="COMPANIES" Relationship="Self.FK_PRODUCTS_COMPANIES" FromRole="PRODUCTS" ToRole="COMPANIES" />
+          <NavigationProperty Name="ORDERS" Relationship="Self.FK_ORDERS_PRODUCTS" FromRole="PRODUCTS" ToRole="ORDERS" />
+          <NavigationProperty Name="WISHLIST" Relationship="Self.FK_WISHLIST_PRODUCTS" FromRole="PRODUCTS" ToRole="WISHLIST" />
+        </EntityType>
+        <EntityType Name="SHIPMENTS">
+          <Key>
+            <PropertyRef Name="Shipment_Id" />
+          </Key>
+          <Property Name="Shipment_Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Repartidor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Order_Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ORDERS" Relationship="Self.FK_SHIPMENTS_ORDERS" FromRole="SHIPMENTS" ToRole="ORDERS" />
+        </EntityType>
+        <EntityType Name="SPECIAL_ACTIVITIES">
+          <Key>
+            <PropertyRef Name="Codigo_Eventualidad" />
+          </Key>
+          <Property Name="Codigo_Eventualidad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Detalles" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Order_Id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ORDERS" Relationship="Self.FK_SPECIAL_ACTIVITIES_ORDERS" FromRole="SPECIAL_ACTIVITIES" ToRole="ORDERS" />
+        </EntityType>
+        <EntityType Name="USERS">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="Cedula" Type="Int64" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Edad" Type="Int32" />
+          <Property Name="Direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Telefono" Type="Int32" Nullable="false" />
+          <Property Name="Celular" Type="Int64" Nullable="false" />
+          <Property Name="Correo_Electronico" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="BANK_ACCOUNT" Relationship="Self.FK_BANK_ACCOUNT_USERS" FromRole="USERS" ToRole="BANK_ACCOUNT" />
+          <NavigationProperty Name="ORDERS" Relationship="Self.FK_ORDERS_USERS" FromRole="USERS" ToRole="ORDERS" />
+          <NavigationProperty Name="WISHLIST" Relationship="Self.FK_WISHLIST_USERS" FromRole="USERS" ToRole="WISHLIST" />
+        </EntityType>
+        <EntityType Name="WISHLIST">
+          <Key>
+            <PropertyRef Name="WishListID" />
+          </Key>
+          <Property Name="WishListID" Type="Int32" Nullable="false" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="Activo_" Type="Boolean" />
+          <NavigationProperty Name="PRODUCTS" Relationship="Self.FK_WISHLIST_PRODUCTS" FromRole="WISHLIST" ToRole="PRODUCTS" />
+          <NavigationProperty Name="USERS" Relationship="Self.FK_WISHLIST_USERS" FromRole="WISHLIST" ToRole="USERS" />
+        </EntityType>
+        <Association Name="FK_BANK_ACCOUNT_USERS">
+          <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+          <End Role="BANK_ACCOUNT" Type="Self.BANK_ACCOUNT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USERS">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="BANK_ACCOUNT">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUCTS_CATEGORIES">
+          <End Role="CATEGORIES" Type="Self.CATEGORIES" Multiplicity="1" />
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CATEGORIES">
+              <PropertyRef Name="CategoriaID" />
+            </Principal>
+            <Dependent Role="PRODUCTS">
+              <PropertyRef Name="CategoriaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUCTS_COMPANIES">
+          <End Role="COMPANIES" Type="Self.COMPANIES" Multiplicity="1" />
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="COMPANIES">
+              <PropertyRef Name="Nit" />
+            </Principal>
+            <Dependent Role="PRODUCTS">
+              <PropertyRef Name="Nit_Compañia" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_NOTIFICATIONS_ORDERS">
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+          <End Role="NOTIFICATIONS" Type="Self.NOTIFICATIONS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDERS">
+              <PropertyRef Name="Order_Id" />
+            </Principal>
+            <Dependent Role="NOTIFICATIONS">
+              <PropertyRef Name="Order_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERS_PRODUCTS">
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="0..1" />
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTS">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="ORDERS">
+              <PropertyRef Name="IVA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERS_USERS">
+          <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USERS">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="ORDERS">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SHIPMENTS_ORDERS">
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+          <End Role="SHIPMENTS" Type="Self.SHIPMENTS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDERS">
+              <PropertyRef Name="Order_Id" />
+            </Principal>
+            <Dependent Role="SHIPMENTS">
+              <PropertyRef Name="Order_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SPECIAL_ACTIVITIES_ORDERS">
+          <End Role="ORDERS" Type="Self.ORDERS" Multiplicity="1" />
+          <End Role="SPECIAL_ACTIVITIES" Type="Self.SPECIAL_ACTIVITIES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDERS">
+              <PropertyRef Name="Order_Id" />
+            </Principal>
+            <Dependent Role="SPECIAL_ACTIVITIES">
+              <PropertyRef Name="Order_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WISHLIST_PRODUCTS">
+          <End Role="PRODUCTS" Type="Self.PRODUCTS" Multiplicity="1" />
+          <End Role="WISHLIST" Type="Self.WISHLIST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTS">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="WISHLIST">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WISHLIST_USERS">
+          <End Role="USERS" Type="Self.USERS" Multiplicity="1" />
+          <End Role="WISHLIST" Type="Self.WISHLIST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USERS">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="WISHLIST">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PedidosEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BANK_ACCOUNT" EntityType="Self.BANK_ACCOUNT" />
+          <EntitySet Name="CATEGORIES" EntityType="Self.CATEGORIES" />
+          <EntitySet Name="COMPANIES" EntityType="Self.COMPANIES" />
+          <EntitySet Name="NOTIFICATIONS" EntityType="Self.NOTIFICATIONS" />
+          <EntitySet Name="ORDERS" EntityType="Self.ORDERS" />
+          <EntitySet Name="PRODUCTS" EntityType="Self.PRODUCTS" />
+          <EntitySet Name="SHIPMENTS" EntityType="Self.SHIPMENTS" />
+          <EntitySet Name="SPECIAL_ACTIVITIES" EntityType="Self.SPECIAL_ACTIVITIES" />
+          <EntitySet Name="USERS" EntityType="Self.USERS" />
+          <EntitySet Name="WISHLIST" EntityType="Self.WISHLIST" />
+          <AssociationSet Name="FK_BANK_ACCOUNT_USERS" Association="Self.FK_BANK_ACCOUNT_USERS">
+            <End Role="USERS" EntitySet="USERS" />
+            <End Role="BANK_ACCOUNT" EntitySet="BANK_ACCOUNT" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUCTS_CATEGORIES" Association="Self.FK_PRODUCTS_CATEGORIES">
+            <End Role="CATEGORIES" EntitySet="CATEGORIES" />
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUCTS_COMPANIES" Association="Self.FK_PRODUCTS_COMPANIES">
+            <End Role="COMPANIES" EntitySet="COMPANIES" />
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_NOTIFICATIONS_ORDERS" Association="Self.FK_NOTIFICATIONS_ORDERS">
+            <End Role="ORDERS" EntitySet="ORDERS" />
+            <End Role="NOTIFICATIONS" EntitySet="NOTIFICATIONS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERS_PRODUCTS" Association="Self.FK_ORDERS_PRODUCTS">
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+            <End Role="ORDERS" EntitySet="ORDERS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERS_USERS" Association="Self.FK_ORDERS_USERS">
+            <End Role="USERS" EntitySet="USERS" />
+            <End Role="ORDERS" EntitySet="ORDERS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SHIPMENTS_ORDERS" Association="Self.FK_SHIPMENTS_ORDERS">
+            <End Role="ORDERS" EntitySet="ORDERS" />
+            <End Role="SHIPMENTS" EntitySet="SHIPMENTS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SPECIAL_ACTIVITIES_ORDERS" Association="Self.FK_SPECIAL_ACTIVITIES_ORDERS">
+            <End Role="ORDERS" EntitySet="ORDERS" />
+            <End Role="SPECIAL_ACTIVITIES" EntitySet="SPECIAL_ACTIVITIES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WISHLIST_PRODUCTS" Association="Self.FK_WISHLIST_PRODUCTS">
+            <End Role="PRODUCTS" EntitySet="PRODUCTS" />
+            <End Role="WISHLIST" EntitySet="WISHLIST" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WISHLIST_USERS" Association="Self.FK_WISHLIST_USERS">
+            <End Role="USERS" EntitySet="USERS" />
+            <End Role="WISHLIST" EntitySet="WISHLIST" />
+          </AssociationSet>
+          <FunctionImport Name="DoBackup">
+            <Parameter Name="NombreDb" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(PedidosModel.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(PedidosModel.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+          <FunctionImport Name="uspInsertarRegistros">
+            <Parameter Name="Cedula" Mode="In" Type="Int64" />
+            <Parameter Name="Nombre" Mode="In" Type="String" />
+            <Parameter Name="Apellido" Mode="In" Type="String" />
+            <Parameter Name="Edad" Mode="In" Type="Int32" />
+            <Parameter Name="Direccion" Mode="In" Type="String" />
+            <Parameter Name="Telefono" Mode="In" Type="Int32" />
+            <Parameter Name="Celular" Mode="In" Type="Int64" />
+            <Parameter Name="Correo_Electronico" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="uspUpdateRegistros">
+            <Parameter Name="Cedula" Mode="In" Type="Int64" />
+            <Parameter Name="Nombre" Mode="In" Type="String" />
+            <Parameter Name="Apellido" Mode="In" Type="String" />
+            <Parameter Name="Edad" Mode="In" Type="Int32" />
+            <Parameter Name="Direccion" Mode="In" Type="String" />
+            <Parameter Name="Telefono" Mode="In" Type="Int32" />
+            <Parameter Name="Celular" Mode="In" Type="Int64" />
+            <Parameter Name="Correo_Electronico" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PedidosModelStoreContainer" CdmEntityContainer="PedidosEntities2">
+          <EntitySetMapping Name="BANK_ACCOUNT">
+            <EntityTypeMapping TypeName="PedidosModel.BANK_ACCOUNT">
+              <MappingFragment StoreEntitySet="BANK_ACCOUNT">
+                <ScalarProperty Name="CuentaID" ColumnName="CuentaID" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="NumeroCuenta" ColumnName="NumeroCuenta" />
+                <ScalarProperty Name="Ultimos4Dig" ColumnName="Ultimos4Dig" />
+                <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="CodigoSegu" ColumnName="CodigoSegu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CATEGORIES">
+            <EntityTypeMapping TypeName="PedidosModel.CATEGORIES">
+              <MappingFragment StoreEntitySet="CATEGORIES">
+                <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Activa_" ColumnName="Activa?" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="COMPANIES">
+            <EntityTypeMapping TypeName="PedidosModel.COMPANIES">
+              <MappingFragment StoreEntitySet="COMPANIES">
+                <ScalarProperty Name="Nit" ColumnName="Nit" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NOTIFICATIONS">
+            <EntityTypeMapping TypeName="PedidosModel.NOTIFICATIONS">
+              <MappingFragment StoreEntitySet="NOTIFICATIONS">
+                <ScalarProperty Name="Codigo_Notificacion" ColumnName="Codigo_Notificacion" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Detalles" ColumnName="Detalles" />
+                <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ORDERS">
+            <EntityTypeMapping TypeName="PedidosModel.ORDERS">
+              <MappingFragment StoreEntitySet="ORDERS">
+                <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="Shipment_Id" ColumnName="Shipment_Id" />
+                <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+                <ScalarProperty Name="IVA" ColumnName="IVA" />
+                <ScalarProperty Name="TotalCompra" ColumnName="TotalCompra" />
+                <ScalarProperty Name="FechaEntrega" ColumnName="FechaEntrega" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PRODUCTS">
+            <EntityTypeMapping TypeName="PedidosModel.PRODUCTS">
+              <MappingFragment StoreEntitySet="PRODUCTS">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="CompañiaID" ColumnName="CompañiaID" />
+                <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+                <ScalarProperty Name="ValorUni" ColumnName="ValorUni" />
+                <ScalarProperty Name="Lote" ColumnName="Lote" />
+                <ScalarProperty Name="Fecha_Vencimiento" ColumnName="Fecha_Vencimiento" />
+                <ScalarProperty Name="Nit_Compañia" ColumnName="Nit_Compañia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SHIPMENTS">
+            <EntityTypeMapping TypeName="PedidosModel.SHIPMENTS">
+              <MappingFragment StoreEntitySet="SHIPMENTS">
+                <ScalarProperty Name="Shipment_Id" ColumnName="Shipment_Id" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Repartidor" ColumnName="Repartidor" />
+                <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SPECIAL_ACTIVITIES">
+            <EntityTypeMapping TypeName="PedidosModel.SPECIAL_ACTIVITIES">
+              <MappingFragment StoreEntitySet="SPECIAL_ACTIVITIES">
+                <ScalarProperty Name="Codigo_Eventualidad" ColumnName="Codigo_Eventualidad" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Detalles" ColumnName="Detalles" />
+                <ScalarProperty Name="Order_Id" ColumnName="Order_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USERS">
+            <EntityTypeMapping TypeName="PedidosModel.USERS">
+              <MappingFragment StoreEntitySet="USERS">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+                <ScalarProperty Name="Edad" ColumnName="Edad" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Celular" ColumnName="Celular" />
+                <ScalarProperty Name="Correo_Electronico" ColumnName="Correo_Electronico" />
+                <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WISHLIST">
+            <EntityTypeMapping TypeName="PedidosModel.WISHLIST">
+              <MappingFragment StoreEntitySet="WISHLIST">
+                <ScalarProperty Name="WishListID" ColumnName="WishListID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="Activo_" ColumnName="Activo?" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="DoBackup" FunctionName="PedidosModel.Store.DoBackup" />
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="PedidosModel.Store.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="PedidosModel.Store.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="PedidosModel.Store.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="PedidosModel.Store.sp_helpdiagramdefinition">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PedidosModel.sp_helpdiagramdefinition_Result">
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="PedidosModel.Store.sp_helpdiagrams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PedidosModel.sp_helpdiagrams_Result">
+                <ScalarProperty Name="Database" ColumnName="Database" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="PedidosModel.Store.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="PedidosModel.Store.sp_upgraddiagrams" />
+          <FunctionImportMapping FunctionImportName="uspInsertarRegistros" FunctionName="PedidosModel.Store.uspInsertarRegistros" />
+          <FunctionImportMapping FunctionImportName="uspUpdateRegistros" FunctionName="PedidosModel.Store.uspUpdateRegistros" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

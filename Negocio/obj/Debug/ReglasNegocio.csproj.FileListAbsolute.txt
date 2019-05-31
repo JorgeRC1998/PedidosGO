@@ -1,0 +1,32 @@
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\bin\Debug\Negocio.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\bin\Debug\Negocio.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\bin\Debug\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\bin\Debug\Reglas.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\bin\Debug\Entidades.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\bin\Debug\Reglas.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csprojResolveAssemblyReference.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csproj.CoreCompileInputs.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\obj\Debug\Negocio.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\Negocio\obj\Debug\Negocio.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Negocio.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Negocio.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Entidades.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Reglas.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Reglas.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csprojAssemblyReference.cache
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csproj.CoreCompileInputs.cache
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csproj.CopyComplete
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\Negocio.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\Negocio.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Negocio.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Negocio.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Entidades.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Reglas.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\bin\Debug\Reglas.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csprojAssemblyReference.cache
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csproj.CoreCompileInputs.cache
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\ReglasNegocio.csproj.CopyComplete
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\Negocio.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\Negocio\obj\Debug\Negocio.pdb

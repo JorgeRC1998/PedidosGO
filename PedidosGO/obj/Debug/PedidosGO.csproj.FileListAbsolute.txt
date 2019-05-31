@@ -1,0 +1,566 @@
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csprojResolveAssemblyReference.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csproj.CoreCompileInputs.cache
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\ApplicationInsights.config
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\csc.exe
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\csc.exe.config
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\csc.rsp
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\csi.exe
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\csi.exe.config
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\csi.rsp
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.AppContext.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Console.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.IO.Compression.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Security.Claims.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.ValueTuple.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\vbc.exe
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\vbc.exe.config
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\vbc.rsp
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\VBCSCompiler.exe
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\PedidosGO.dll.config
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\PedidosGO.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\PedidosGO.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Antlr3.Runtime.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Entidades.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.Web.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.ApplicationInsights.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Negocio.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Newtonsoft.Json.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Helpers.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Mvc.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Optimization.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Razor.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.WebPages.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.WebPages.Razor.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\WebGrease.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Reglas.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Entidades.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Negocio.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Helpers.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Mvc.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Optimization.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.Razor.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.WebPages.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Web.WebPages.Razor.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Antlr3.Runtime.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Newtonsoft.Json.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.ApplicationInsights.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AI.Web.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Reglas.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\es\System.Web.Helpers.resources.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\es\System.Web.Mvc.resources.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\es\System.Web.Optimization.resources.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\es\System.Web.Razor.resources.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.resources.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\obj\Debug\PedidosGO.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\obj\Debug\PedidosGO.pdb
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\EntityFramework.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\EntityFramework.SqlServer.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\EntityFramework.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\EntityFramework.SqlServer.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Options.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Buffers.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.ComponentModel.Primitives.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Text.Encodings.Web.dll
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Options.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.Swagger.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerGen.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerUI.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\David Vélez Mesa\Desktop\PedidosGO\PedidosGO\bin\System.Text.Encodings.Web.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\ApplicationInsights.config
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csc.exe
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csc.exe.config
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csc.rsp
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csi.exe
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csi.exe.config
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csi.rsp
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.AppContext.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Console.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.Compression.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Claims.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.ValueTuple.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\vbc.exe
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\vbc.exe.config
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\vbc.rsp
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\VBCSCompiler.exe
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\PedidosGO.dll.config
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\PedidosGO.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\PedidosGO.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Antlr3.Runtime.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Entidades.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.SqlServer.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.Web.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Options.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Negocio.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Newtonsoft.Json.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Reglas.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Buffers.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.ComponentModel.Primitives.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Text.Encodings.Web.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Helpers.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Mvc.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Optimization.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Razor.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Razor.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\WebGrease.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Negocio.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Reglas.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.SqlServer.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Options.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Newtonsoft.Json.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.Swagger.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerGen.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerUI.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Text.Encodings.Web.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Helpers.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Mvc.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Optimization.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Razor.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Razor.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Antlr3.Runtime.pdb
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.Web.xml
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Razor.resources.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csprojAssemblyReference.cache
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csproj.CoreCompileInputs.cache
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csproj.CopyComplete
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.dll
+C:\Users\jorge\Desktop\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\ApplicationInsights.config
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csc.exe
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csc.exe.config
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csc.rsp
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csi.exe
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csi.exe.config
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\csi.rsp
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.AppContext.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Console.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.Compression.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Claims.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Threading.Thread.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.ValueTuple.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\vbc.exe
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\vbc.exe.config
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\vbc.rsp
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\VBCSCompiler.exe
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\PedidosGO.dll.config
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\PedidosGO.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\PedidosGO.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Antlr3.Runtime.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Entidades.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.SqlServer.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.Web.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Options.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Negocio.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Newtonsoft.Json.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Reglas.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Buffers.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.ComponentModel.Primitives.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Text.Encodings.Web.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Helpers.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Mvc.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Optimization.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Razor.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Razor.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\WebGrease.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Entidades.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Negocio.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Reglas.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\EntityFramework.SqlServer.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Options.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Newtonsoft.Json.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.Swagger.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerGen.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Swashbuckle.AspNetCore.SwaggerUI.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Text.Encodings.Web.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Helpers.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Mvc.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Optimization.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.Razor.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\System.Web.WebPages.Razor.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Antlr3.Runtime.pdb
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\Microsoft.AI.Web.xml
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.Razor.resources.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csprojAssemblyReference.cache
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csproj.CoreCompileInputs.cache
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.csproj.CopyComplete
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.dll
+C:\Users\jorge\Desktop\Universidad\Universidad 7\Ingenieria del software\PedidosGO\PedidosGO\obj\Debug\PedidosGO.pdb
